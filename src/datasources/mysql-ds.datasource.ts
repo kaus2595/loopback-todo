@@ -4,12 +4,12 @@ import {juggler} from '@loopback/repository';
 const config = {
   name: 'mysqlDs',
   connector: 'mysql',
-  url: 'mysql://root:\'\'@localhost/loopbackTodo',
+  //url: 'mysql://root:\'\'@localhost/loopbackTodo',
   host: 'localhost',
-  port: 0,
-  user: '',
+  port: 3306,
+  user: 'root',
   password: '',
-  database: ''
+  database: 'loopbackTodo'
 };
 
 // Observe application's life cycle to disconnect the datasource when
